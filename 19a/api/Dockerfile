@@ -16,4 +16,4 @@ ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/var/geocode/version-19a_19.1/lib/
 RUN pip install --upgrade pip\
     && pip install python-geosupport flask 
 
-EXPOSE 5000
+# EXPOSE 5000
