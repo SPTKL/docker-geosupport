@@ -2,7 +2,8 @@ FROM continuumio/miniconda3:4.6.14
 
 USER root
 
-RUN apt install -y\
+RUN apt update\
+    && apt install -y\
     curl git unzip
 
 WORKDIR /var/geocode
