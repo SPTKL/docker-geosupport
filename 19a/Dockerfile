@@ -28,4 +28,4 @@ RUN pip install --upgrade pip\
 RUN git clone https://github.com/SPTKL/api-geosupport.git
 WORKDIR /home/jovyan/work/api-geosupport
 
-# EXPOSE 8888 5000
+EXPOSE 8888 5000

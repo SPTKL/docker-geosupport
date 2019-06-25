@@ -25,4 +25,4 @@ COPY requirements.txt /home/jovyan/work/requirements.txt
 RUN pip install --upgrade pip\
     && pip install -r requirements.txt
 
-# EXPOSE 8888
+EXPOSE 8888
