@@ -1,4 +1,0 @@
-xlrd
-python-geosupport
-pandas
-flask

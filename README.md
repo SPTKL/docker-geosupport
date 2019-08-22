@@ -6,19 +6,4 @@ Thanks to [python-geosupport](https://github.com/ishiland/python-geosupport) pyt
 
 ## Instructions: 
 1. Make sure you have docker installed 
-2. Docker pull sptkl/docker-geosupport:tagname
-3. To use through jupyter notebook: 
-    ```
-    docker run -it --rm -p 8888:8888 sptkl/docker-geosupport:19a
-    ```
-4. To use through bash: 
-    ```    
-    docker run -it --rm sptkl/docker-geosupport:19a bash
-    ```
-5. To run python scrips at your current directory: 
-    ```
-    docker run -v `pwd`:/home/jovyan/work/dir_name\
-                -w /home/jovyan/work/dir_nam
-                sptkl/docker-geosupport: 19a\
-                python geocode.py
-    ```
+2. Docker pull sptkl/docker-geosupport:tag

@@ -1,3 +1,0 @@
-xlrd
-python-geosupport
-pandas
