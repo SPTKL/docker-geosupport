@@ -8,7 +8,7 @@ RUN apt update\
 
 WORKDIR /var/geocode
 
-RUN curl -O https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/linux_geo18a_181.zip\
+RUN curl -O https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/gdelx_18a.zip\
     && unzip *.zip\
     && rm *.zip
 
