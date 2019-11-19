@@ -8,8 +8,8 @@ RUN apt update\
 
 WORKDIR /var/geocode
 
-COPY linux_geo19d_19.4.zip .
-RUN unzip *.zip\
+RUN curl -O https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/linux_geo19b_19_2.zip\
+    && unzip *.zip\
     && rm *.zip
 
 ENV GEOFILES=/var/geocode/version-19d_19.4/fls/
